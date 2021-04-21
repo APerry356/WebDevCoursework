@@ -2,8 +2,6 @@ function setScoreCookie() {
 	document.cookie = "score=20";
 }
 
-
-
 // Functions for charecter name got from W3 Schools (https://www.w3schools.com/js/js_cookies.asp)
 
 function setCookie(cname, cvalue, exdays) {
@@ -29,7 +27,6 @@ function getCookie(cname) {
   return "";
 }
 
-
 function checkCookie() {
   var username = getCookie("username");
   if (username != "") {
@@ -42,49 +39,34 @@ function checkCookie() {
   }
 }
 
-
 function getUsername() {
 	username = getCookie("username");
 	score = getCookie("score")
 	alert ("You have completed your Journey " + username + ", but what were the consiquences of your actions? Your morality Score was: " + score);
-	
-	
 }
 
 function knightChoice(choiceno, choiceVal) {
     setCookie(choiceno, choiceVal, 365);
 }
 
-
-
-
 function neutralDec(score) {
 	var sCookie = getCookie(score);
 	score = sCookie - 0
-	
 }
 
 function badDec(score) {
 	var sCookie = getCookie(score);
 	score = sCookie - 2
-	
 }
 
 function goodDec(score) {
 	var sCookie = getCookie(score);
 	score = sCookie + 2
-	
 }
-
-
-	
 
 function endKnight() {
 	getUsername();
-	checkChoice1Cookie;
-	getCookie(choice1);
-	
-			
+	getCookie(choice1);	
 }
 
 
