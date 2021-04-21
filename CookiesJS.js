@@ -75,13 +75,13 @@ function goodDec(score) {
 }
 
 
-function knightChoice1Option1(choice1) {
+function knightChoice1Option1() {
 	document.cookie ="choice1=1"
 
 }
 
 
-function knightChoice1Option2(choice1) {
+function knightChoice1Option2() {
 	document.cookie ="choice1=2"
 
 }
