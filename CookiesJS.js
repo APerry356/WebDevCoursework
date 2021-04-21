@@ -51,7 +51,9 @@ function getUsername() {
 	
 }
 
-
+function knightChoice(choiceno, choiceVal) {
+    setCookie(choiceno, choiceVal, 365);
+}
 
 
 
@@ -136,7 +138,7 @@ function knightChoice3Option3(choice3) {
 }
 
 function checkChoice1Cookie() {
-	setCookie("choice1", choice1, 30); 
+	setCookie("choice1", 1, 30); 
 }	
 
 function endKnight() {
@@ -152,16 +154,7 @@ function endKnight() {
 	
 	
 	
-  var username = getCookie("username");
-  if (username != "") {
-   alert("Welcome again " + username);
-  } else {
-    username = prompt("Please enter your Charecters name:", "");
-    if (username != "" && username != null) {
-      setCookie("username", username, 30);
-    }
-  }
-}
+
 
 
 
