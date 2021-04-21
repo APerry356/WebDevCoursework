@@ -77,69 +77,7 @@ function goodDec(score) {
 }
 
 
-function knightChoice1Option1() {
-	document.cookie ="choice1=1"
-
-}
-
-
-function knightChoice1Option2() {
-	document.cookie ="choice1=2"
-
-}
-
-
-function knightChoice1Option3(choice1) {
-	document.cookie ="choice1=3"
-
-}
-
-
-
-
-
-
-function knightChoice2Option1(choice2) {
-	document.cookie ="choice2=1"
-
-}
-
-
-function knightChoice2Option2(choice2) {
-	document.cookie ="choice2=2"
-
-}
-
-
-function knightChoice2Option3(choice2) {
-	document.cookie ="choice2=3"
-
-}
-
-
-
-
-
-function knightChoice3Option1(choice3) {
-	document.cookie ="choice3=1"
-
-}
-
-
-function knightChoice3Option2(choice3) {
-	document.cookie ="choice3=2"
-
-}
-
-
-function knightChoice3Option3(choice3) {
-	document.cookie ="choice3=3"
-
-}
-
-function checkChoice1Cookie() {
-	setCookie("choice1", 1, 30); 
-}	
+	
 
 function endKnight() {
 	getUsername();
