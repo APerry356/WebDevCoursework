@@ -1,2 +1,0 @@
-# WebDevCoursework
-Web dev coursework
