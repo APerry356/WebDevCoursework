@@ -135,6 +135,12 @@ function knightChoice3Option3(choice3) {
 
 }
 
+function endKnight() {
+	getUsername();
+	getCookie(choice1);
+			
+}
+
 
 
 
