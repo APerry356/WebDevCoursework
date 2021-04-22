@@ -76,6 +76,21 @@ function endKnight() {
 	getCookie(choice1);	
 }
 
+function makeChoice1() {
+	getUsername();
+	var kchoice1 = getCookie("choice1");
+	console.log(kchoice1);
+	if (getCookie("choice1") == "1") {
+		document.getElementById('choice1outcome1').style.display = 'block';
+	} else if (getCookie("choice1") == "2") {
+		document.getElementById('choice1outcome2').style.display = 'block';
+	} else {
+	document.getElementById('choice1outcome3').style.display = 'block';
+	}								
+								
+							
+}
+
 
 	
 	
