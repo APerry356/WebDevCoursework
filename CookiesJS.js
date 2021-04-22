@@ -46,19 +46,19 @@ function archerChoice(choiceno, choiceVal) {
 // Functions for Score function.
 function neutralDec() {
 	var sCookie = getCookie(score);
-	score = sCookie - 0
+	var score = sCookie - 0
 	setCookie("score", score, 365)
 }
 
 function badDec() {
 	var sCookie = getCookie(score);
-	score = sCookie - 2
+	var score = sCookie - 2
 	setCookie("score", score, 365)
 }
 
 function goodDec() {
 	var sCookie = getCookie(score);
-	score = sCookie + 2
+	var score = sCookie + 2
 	setCookie("score", score, 365)
 }
 
