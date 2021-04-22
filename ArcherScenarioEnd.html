@@ -7,42 +7,52 @@
 				<title>Web Dev Coursework</title>
 			</head>
 
-			<body onload="makeChoice1()">
+			<body onload="makeChoice()">
 				<header>THE WORLD AFTER</header>
 				<div class="container">
 					<main>
 						<h1>The Conclusion!</h1>
 						<h3></h3>
-
-						<div id="choice1outcome1" style="display: none">
-							<!-- Your choice 1 outcome 1 goes here -->
-							<h2>A<h2>
+						<!--Scenario 1-->
+						<div id="choice1outcome1" style="display: none">							
+							<h2>You help kill the invaders that have attacked the town.  You killed three soldiers and escaped successfully.  Thanks to your well place shots you some of the Knights were able to escape.  Thanks to your actions many civilians escaped the village and made it away before the enemy returned. </h2>
 						</div>
 
-						<div id="choice1outcome2" style="display: none">
-							<!-- Your choice 1 outcome 2 goes here -->
-							<h2>B<h2>
+						<div id="choice1outcome2" style="display: none">							
+							<h2>You hid the forest while the battle raged.  You watched as the knights were slain and looted.  You watched as the invaders kicked down the doors of the houses and dragged the inhabitants from them.  You could not watch what happened so you moved back into the forest as the screaming started.</h2>
 						</div>
 
-						<div id="choice1outcome3" style="display: none">
-							<!-- Your choice 1 outcome 3 goes here -->
-							<h2>C<h2>
+						<div id="choice1outcome3" style="display: none">							
+							<h2>You ignored the battle and moved back into the forest, heading south towards the road that took you to another village.  You left many men, women and children die without trying to save them..<h2>
+						</div>
+						
+						<!--Scenario 2-->
+						<div id="choice2outcome1" style="display: none">							
+							<h2>You managed to scare off the Ghouls and kill two of them.  The trade cart was able to move on.  They did not take your advice though, instead they took the body home for burial. The body transformed into a ghoul and killed a young women morning the death of her partner who was killed during the war.</h2>
 						</div>
 
-						<script>
-							function makeChoice1() {
-								getUsername();
-								var kchoice1 = getCookie("choice1");
-								console.log(kchoice1);
-								if (getCookie("choice1") == "1") {
-									document.getElementById('choice1outcome1').style.display = 'block';
-								} else if (getCookie("choice1") == "2") {
-									document.getElementById('choice1outcome2').style.display = 'block';
-								} else {
-									document.getElementById('choice1outcome3').style.display = 'block';
-								}
-							}
-						</script>
+						<div id="choice2outcome2" style="display: none">							
+							<h2>You moved into the forrest and slipped past the Ghouls.  Everyone in that cart was killed by the Ghouls and they slinked back to their nest.  The village these people were from later paid a Witcher, a trained monster hunter, to eliminate the nest.</h2>
+						</div>
+
+						<div id="choice2outcome3" style="display: none">							
+							<h2>You managed to scare off the Ghouls and kill two of them.  You robbed the people of their food, they made it back to the village and where they buried the body. The body transformed into a ghoul and killed a young women morning the death of her partner who was killed during the war.</h2>
+						</div>
+						
+						<!--Scenario 3-->
+						<div id="choice3outcome1" style="display: none">							
+							<h2>You spent the next day hunting in the forest around the village.  The village elder paid you for your service. The next morning you head back to the road and continue your journey, content that you have been able to help some people survive for another few days.</h2>
+						</div>
+
+						<div id="choice3outcome2" style="display: none">							
+							<h2>You taught three volunteers the basics of archery so that they could hunt for their village. The people you taught then went onto abandon their village and join a local resistance movement.</h2>
+						</div>
+
+						<div id="choice3outcome3" style="display: none">							
+							<h2>You continued your journey without helping the village.  You prioritised putting as much distance between you and the battle as possible.</h2>
+						</div>
+
+						
 
 
 					</main>
