@@ -1,4 +1,4 @@
-body {
+body { 
  margin: 0;
  padding: 0;
  max-width: inherit;
@@ -20,9 +20,9 @@ footer {
  background-color: #F2EDED;
  color: #1C1C1C;
 }
-nav { background: #EDE6E6; }
-main { background: #D8DDDE; }
-aside { background: #EDE6E6; }
+nav { background: #b3b3cc; }
+main { background: #b3e6ff; }
+aside { background: #b3b3cc; }
 
 body {
  min-height: 100vh;
@@ -54,7 +54,7 @@ aside {
 
 
 
-
+/* CSS for buttons is from W3schools (https://www.w3schools.com/css/css3_buttons.asp) */
 
 .button {
   background-color: #4CAF50; 
@@ -123,8 +123,10 @@ aside {
   color: white;
 }
 
+/* Navigation buttons */
+
 .btn-group .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #3366ff; 
   border: 1px solid green;
   color: white;
   padding: 15px 32px;

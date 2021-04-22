@@ -23,15 +23,15 @@ function getCookie(cname) { // function to get a cookie for use by another funct
   return "";
 }
 
-function checkCookie() { // function for getting the charecter name
-	username = prompt("Please enter your Charecters name:", "");
+function checkCookie() { // function for getting the character name
+	username = prompt("Please enter your character name:", "");
     setCookie("username", username, 30);
 }
 
 function getUsername() { // function to show username with score on end page
 	username = getCookie("username");
 	score = getCookie("score")
-	alert ("You have completed your Journey " + username + ", but what were the consiquences of your actions? Your morality Score was: " + score);
+	alert ("You have completed your Journey " + username + ", but what were the consequences of your actions? Your morality Score was: " + score);
 }
 
 function knightChoice(choiceno, choiceVal) {
