@@ -88,15 +88,6 @@ function makeChoice1() {
 	document.getElementById('choice1outcome3').style.display = 'block';
 	}
 
-	var kchoice2 = getCookie("choice2");
-	console.log(kchoice2);
-	if (getCookie("choice2") == "1") {
-		document.getElementById('choice2outcome1').style.display = 'block';
-	} else if (getCookie("choice2") == "2") {
-		document.getElementById('choice2outcome2').style.display = 'block';
-	} else {
-	document.getElementById('choice2outcome3').style.display = 'block';
-	}
 	
 								
 							
