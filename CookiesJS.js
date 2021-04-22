@@ -49,19 +49,26 @@ function knightChoice(choiceno, choiceVal) {
     setCookie(choiceno, choiceVal, 365);
 }
 
+function archerChoice(choiceno, choiceVal) {
+    setCookie(choiceno, choiceVal, 365);
+}
+
 function neutralDec() {
 	var sCookie = getCookie(score);
 	score = sCookie - 0
+	setCookie("score", score, 365)
 }
 
 function badDec() {
 	var sCookie = getCookie(score);
 	score = sCookie - 2
+	setCookie("score", score, 365)
 }
 
 function goodDec() {
 	var sCookie = getCookie(score);
 	score = sCookie + 2
+	setCookie("score", score, 365)
 }
 
 function endKnight() {
