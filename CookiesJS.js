@@ -49,17 +49,17 @@ function knightChoice(choiceno, choiceVal) {
     setCookie(choiceno, choiceVal, 365);
 }
 
-function neutralDec(score) {
+function neutralDec() {
 	var sCookie = getCookie(score);
 	score = sCookie - 0
 }
 
-function badDec(score) {
+function badDec() {
 	var sCookie = getCookie(score);
 	score = sCookie - 2
 }
 
-function goodDec(score) {
+function goodDec() {
 	var sCookie = getCookie(score);
 	score = sCookie + 2
 }
