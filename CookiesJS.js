@@ -77,7 +77,6 @@ function endKnight() {
 }
 
 function makeChoice1() {
-    getUsername();
     var kchoice1 = getCookie("choice1");
     console.log(kchoice1);
     if (getCookie("choice1") == "1") {
@@ -89,10 +88,37 @@ function makeChoice1() {
     }
 }
 
+function makeChoice2() {
+    var kchoice2 = getCookie("choice2");
+    console.log(kchoice2);
+    if (getCookie("choice2") == "1") {
+        document.getElementById('choice2outcome1').style.display = 'block';
+    } else if (getCookie("choice2") == "2") {
+        document.getElementById('choice2outcome2').style.display = 'block';
+    } else {
+        document.getElementById('choice2outcome3').style.display = 'block';
+    }
+}
 
+function makeChoice3() {
+    var kchoice3 = getCookie("choice3");
+    console.log(kchoice3);
+    if (getCookie("choice3") == "1") {
+        document.getElementById('choice3outcome1').style.display = 'block';
+    } else if (getCookie("choice3") == "2") {
+        document.getElementById('choice3outcome2').style.display = 'block';
+    } else {
+        document.getElementById('choice3outcome3').style.display = 'block';
+    }
+}
 	
 	
-	
+function makeChoice() {
+	getUsername();
+	makeChoice1();
+	makeChoice2();
+	makeChoice3();
+}
 	
 
 
