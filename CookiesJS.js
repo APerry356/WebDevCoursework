@@ -87,10 +87,6 @@ function makeChoice1() {
 	} else {
 	document.getElementById('choice1outcome3').style.display = 'block';
 	}
-
-	
-								
-							
 }
 
 
